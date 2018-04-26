@@ -1,49 +1,16 @@
-h1,h2,h3,h4,h5,h6,p,ul,ol,article,main,header{
-    margin: 0;
-    padding: 0;
-}
 body{
-    font-family: 1em/2 sans-serif;
-    width:800px;
-    margin:2em auto;
-    background-color: #fff;
-    color:#666;
-    border:1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5),0 0 6px rgba(0, 0, 0, 0.2);
-}
-span{
-    margin-right: .5em;
-    font-weight: bold;
-}
-table,tr,td{
-    border: 1px solid #666;
-    border-collapse:collapse;
-}
-header{
-    padding:4em 2em 0em 2em;
-}
-main{
-    padding:0 2em 4em 2em;
-}
-h2{
-    border-bottom: 1px solid #ddd;
-    color:#073655;
-    padding-left: 48px;
-    background: #fff url(images/icon_grjn.png) no-repeat;
-    padding-bottom: 0.2em;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);    
+    max-width: 800px;
+    margin: 0 auto;
 }
 h1{
-    color:#073655;
-    font-weight: 900;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
 }
-li{
-    list-style: none;
+h2{
+    font-size: 1.3em;
 }
-article{
-    padding: 1em 0;
+p,ul,ol,dl,address {
+    font-size: 1.1em;
 }
-p{
-    font-style: italic;
+p,li,dd,dt{
+    line-height: 1.5;
 }
