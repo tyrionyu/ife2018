@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif
+}
+body{
+    max-width: 800px;
+    margin: 1em auto;
+    border: 1px solid #666;
+    border-radius: .4em;
+}
+header,main{
+    padding:2em;
+}
+header{
+    padding-bottom: 0;
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.3em;
+    padding-left: 24px;
+}
+h1,h2{
+    color: #374760;
+}
+p,ul,ol,dl{
+    font-size: 1.1em;
+}
+p,li,dd,dt{
+    line-height: 1.5;
+}
+span{
+    font-weight: 500;
+    margin-right: 1em;
+}
+.r{
+    text-align: right;
+}
+h2{
+    line-height: 24px;
+}
+h2.qzyx{
+    background: url(images/icon.png) no-repeat 0 0;
+}
+h2.gzjl{
+    background: url(images/icon.png) no-repeat 0 -72px;
+}
+h2.xmjl{
+    background: url(images/icon.png) no-repeat 0 -120px;
+}
+h2.jyjl{
+    background: url(images/icon.png) no-repeat 0 -24px;
+}
+h2.xljl{
+    background: url(images/icon.png) no-repeat 0 -48px;
+}
+h2.hjjl{
+    background: url(images/icon.png) no-repeat 0 -120px;
+}
+h2.grjn{
+    background: url(images/icon.png) no-repeat 0 -144px;
+}
+h2.zwpj{
+    background: url(images/icon.png) no-repeat 0 -168px;
+}
+h2.gwly{
+    background: url(images/icon.png) no-repeat 0 -168px;
+}
+footer p{
+    text-align: center;
+    font: .5em/1.5 serif;
+}
+footer p a{
+    text-decoration: none;
+    display: block;
+    
+}
+footer p a:hover{
+    color: rgba(210, 210, 210, .3);
+}

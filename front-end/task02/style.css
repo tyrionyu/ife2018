@@ -1,4 +1,7 @@
 body{
+    font-family: sans-serif
+}
+body{
     max-width: 800px;
     margin: 0 auto;
 }
@@ -8,9 +11,19 @@ h1{
 h2{
     font-size: 1.3em;
 }
-p,ul,ol,dl,address {
+h1,h2{
+    color: #374760;
+}
+p,ul,ol,dl{
     font-size: 1.1em;
 }
 p,li,dd,dt{
     line-height: 1.5;
+}
+span{
+    font-weight: 500;
+    margin-right: 1em;
+}
+.r{
+    text-align: right;
 }
