@@ -15,14 +15,18 @@ body{
     color: #666;
 }
 header{
-    padding: 2em 2em 0 2em;
+    width: 7em;
     background-color: #68a5fb;
     float: left;
     color: #fff;
+    text-align: center;
+}
+header,main{
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
 }
 main{
-    padding: 0 2em 2em 2em;
-    margin-left: 7em;
+    margin-left: 8em;
 }
 dl{
     line-height: 2em;

@@ -20,15 +20,15 @@ header{
     color: #fff;
 }
 main{
-    padding: 0 2em 2em 2em;    
+ 
 }
 .title{
-    float: left;
     background-color: #d6d6d6;
+    float: left;
 }
 dl{
     line-height: 2em;
-    margin-left: 7em;
+    margin-left: 6em;  
 }
 dt{
     font-weight: bold;
@@ -50,5 +50,5 @@ a:hover,a:focus,a:active{
     text-decoration: none;
 }
 article{
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
