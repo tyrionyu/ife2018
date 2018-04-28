@@ -1,6 +1,9 @@
-dd{
+/* reset CSS */
+*{
     margin: 0;
+    padding: 0;
 }
+
 .fix::after{
     height: 0;
     clear: both;
@@ -15,20 +18,22 @@ body{
     color: #666;
 }
 header{
-    padding: 2em 2em 0 2em;
+    padding: 1em;
     background-color: #858585;
     color: #fff;
-}
-main{
- 
 }
 .title{
     background-color: #d6d6d6;
     float: left;
 }
+.title,dl{
+    margin-bottom: -600px;
+    padding-bottom: 600px;
+}
 dl{
     line-height: 2em;
-    margin-left: 6em;  
+    margin-left: 7em;
+    overflow: hidden;
 }
 dt{
     font-weight: bold;
@@ -50,5 +55,6 @@ a:hover,a:focus,a:active{
     text-decoration: none;
 }
 article{
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #666;
+    overflow: hidden;
 }

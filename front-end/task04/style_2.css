@@ -22,14 +22,16 @@ header{
     text-align: center;
 }
 header,main{
-    margin-bottom: -1000px;
-    padding-bottom: 1000px;
+    margin-bottom: -840px;
+    padding-bottom: 840px;
 }
 main{
     margin-left: 8em;
+    overflow: hidden;
 }
 dl{
     line-height: 2em;
+    overflow: hidden;
 }
 dt{
     font-weight: bold;
