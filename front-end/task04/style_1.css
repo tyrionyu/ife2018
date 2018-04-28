@@ -22,6 +22,7 @@ main{
 }
 dl{
     line-height: 2em;
+    overflow: hidden;
 }
 dt{
     font-weight: bold;
