@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>实现一个两栏布局，左侧占30%宽度，右侧占70%宽度</title>
+    <style>
+        /* 使用 Float 来实现 */
+        /* html,body{
+            height: 100%;
+        }
+        body{
+            margin: 0;
+        }
+        aside{
+            width: 30%;
+            float: left;
+            height: 100%;
+            background-color: lightblue;
+        }
+        main{
+            width: 70%;
+            float: left;
+            height: 100%;
+            background-color: lightgreen;
+        } */
+        /* 使用 Position来实现 */
+        /* html,body{
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            position: relative;
+        }
+        aside{
+            width: 30%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: lightblue;
+        }
+        main{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 70%;
+            height: 100%;
+            background-color: lightgreen;
+        } */
+        /* 使用 Flexbox来实现 */
+        html,body{
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            display: flex;
+        }
+        aside{
+            width: 30%;
+            height: 100%;
+            background-color: lightblue;
+        }
+        main{
+            width: 70%;
+            height: 100%;
+            background-color: lightgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <aside>
+        <P>我是左侧栏占30%的宽度</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum minima, ducimus vero tenetur rem ab ipsa eos debitis cumque exercitationem maxime, cum incidunt magni similique inventore repellat quisquam aliquid?</p>
+    </aside>
+    <main>
+        <P>我是左侧栏占70%的宽度</P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestias reiciendis magnam doloribus aspernatur? Itaque aspernatur tempora, est tempore numquam corrupti corporis quos facilis molestias qui consectetur quidem? Sed, corrupti!Lorem</p>
+    </main>    
+</body>
+</html>

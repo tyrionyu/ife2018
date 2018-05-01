@@ -21,6 +21,15 @@
 - 第五天和第六天：三种简历
 [CODE](https://github.com/tyrionyu/ife2018/tree/master/front-end/task04) [DEMO](https://tyrionyu.com/ife2018/front-end/task04)
 
+- 第五天和第六天：三种简历
+[CODE](https://github.com/tyrionyu/ife2018/tree/master/front-end/task04) [DEMO](https://tyrionyu.com/ife2018/front-end/task04)
+
+第七天到第八天：学习布局
+[CODE](https://github.com/tyrionyu/ife2018/tree/master/front-end/task05) [DEMO](https://tyrionyu.com/ife2018/front-end/task05)
+
+第九天到第十一天：来做一个漂亮的网站
+[CODE](https://github.com/tyrionyu/ife2018/tree/master/front-end/task06) [DEMO](https://tyrionyu.com/ife2018/front-end/task06)
+
 ## 设计师学院
 - No.1 - 制作一个简单的菜单动画效果
 [CODE](https://github.com/tyrionyu/ife2018/blob/master/css-animation/task01/index.html) [DEMO](https://tyrionyu.com/ife2018/css-animation/task01)

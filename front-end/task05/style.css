@@ -1,0 +1,128 @@
+html,body,h1,p,ul{
+    margin: 0;
+    padding: 0;
+}
+.public-content{
+    max-width: 960px;
+    margin: 0 auto; 
+}
+h1 a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1em 1em 1em 0;            
+}
+.content{
+    position: absolute;
+    right: 0;
+    top: .5em;
+}
+header .public-content{
+    position: relative;
+}
+.banner .public-content{
+    position: relative;
+}
+header .content a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0.5em;  
+}
+.banner{
+    background-color: #67bb31;
+    height: 20em;
+}
+header{
+    background-color: #333;
+}
+footer{
+    background-color: #666;
+}
+footer p{
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+main .public-content{
+    position: relative;
+}
+.banner ul{
+    position: absolute;
+    right: 0;
+    bottom: -19em;
+}
+.banner ul li{
+    list-style: none;
+    text-align: center;
+    float: left;
+    margin-left: 0.2em;
+}
+.banner ul li a{
+    display: inline-block;
+    background-color: #fff;
+    width: 1.2em;
+    height: 1.2em;
+    color: rgb(54, 119, 16);
+    text-decoration: none;
+}
+nav{
+    overflow: hidden;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin: .8em;
+}
+main nav ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: .4em .4em 0 0;
+    background-color: #ccc; 
+}
+/* .content-a{
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #CCC;
+    display: inline-block;
+    margin-right: 30px;
+}
+.content-a p{
+    text-align: center;
+    line-height: 200px;
+}
+.content-b{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #CCC;
+    display: inline-block;
+}
+.content-b p{
+    text-align: center;
+    line-height: 150px;
+}
+.t3{
+    margin-right: 0;
+} */
+.top,.center,.bottom{
+    display: flex;
+}
+.content-a{
+    flex: 1 300px;
+    border: 1px solid #ccc;
+    height: 200px;
+    margin: 10px;
+}
+.content-b{
+    flex: 1 150px;
+    border: 1px solid #ccc;
+    height: 200px;
+    margin: 10px;
+}
+.content-b p,.content-a p{
+    text-align: center;
+    line-height: 150px;
+}
