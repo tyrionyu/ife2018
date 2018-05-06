@@ -40,7 +40,7 @@ footer{
 }
 footer p{
     color: #fff;
-    padding: 1em;
+    padding: 3em;
     text-align: center;
 }
 main .public-content{
@@ -60,69 +60,56 @@ main .public-content{
 .banner ul li a{
     display: inline-block;
     background-color: #fff;
-    width: 1.2em;
-    height: 1.2em;
+    width: 1.5em;
+    height: 1.5em;
     color: rgb(54, 119, 16);
     text-decoration: none;
 }
 nav{
+    border-bottom: 1px solid #ccc;
+    margin-top: .6em;
+}
+nav ul{
     overflow: hidden;
 }
 nav ul li{
     list-style: none;
     float: left;
-    margin: .8em;
+    display: block;
 }
 main nav ul li a{
-    display: inline-block;
-    color: #fff;
+    display: block;
+    color: #333;
+    font-size: .8em;
     text-decoration: none;
-    padding: 1em;
-    border-radius: .4em .4em 0 0;
-    background-color: #ccc; 
+    padding: .6em 1.4em;
+    border-radius: .8em .8em 0 0;
+    background-color: rgb(228, 228, 228); 
+    text-transform: uppercase;
+    border: 1px solid #ccc;
 }
-/* .content-a{
-    box-sizing: border-box;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #CCC;
-    display: inline-block;
-    margin-right: 30px;
+.selected{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
 }
-.content-a p{
-    text-align: center;
-    line-height: 200px;
-}
-.content-b{
-    box-sizing: border-box;
-    width: 150px;
-    height: 150px;
-    border: 1px solid #CCC;
-    display: inline-block;
-}
-.content-b p{
-    text-align: center;
-    line-height: 150px;
-}
-.t3{
-    margin-right: 0;
-} */
-.top,.center,.bottom{
+.content-top,.content-center,.content-bottom{
     display: flex;
+    align-content: space-between;
 }
 .content-a{
-    flex: 1 300px;
+    flex: 1;
     border: 1px solid #ccc;
-    height: 200px;
-    margin: 10px;
+    height: 15em;
+    margin: .6em;   
 }
 .content-b{
-    flex: 1 150px;
+    flex: 1 25%;
     border: 1px solid #ccc;
-    height: 200px;
-    margin: 10px;
+    height: 15em;
+    padding: .5em;
+    margin: .5em;
 }
 .content-b p,.content-a p{
-    text-align: center;
-    line-height: 150px;
+
+
 }
